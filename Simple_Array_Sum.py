@@ -1,9 +1,10 @@
+#Python Program to sum the elements in an array
 #!/bin/python3
 import os
 import sys
 
 def simpleArraySum(ar):
-    sum=0;
+    sum=0
     for i in range(len(ar)):
         sum+=ar[i]
     return (sum)
